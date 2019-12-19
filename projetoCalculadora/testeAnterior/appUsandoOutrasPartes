@@ -1,0 +1,130 @@
+<>
+      {/*screen*/}
+      <View style={Styles.resultScreen}>
+        <Text style={Styles.textValue_resultScreen}>{value}</Text>
+      </View>
+
+      {/*Keyboard*/}
+      <View style={Styles.keyboardScreen}>
+        {/* row 1 */}
+        <View style={Styles.rows_container}>
+          <View style={{flex:3}}>
+            <Buttons title="AC" color="#fff"  Width="100%" Height="100%"/>
+          </View>
+
+          <View style={{flex:1}}>
+            <Buttons title="+"  color="#ff9933" Width="100%" Height="100%"/>
+          </View>
+
+          
+        </View>
+        {/* row 2 */}
+        <View style={Styles.rows_container}>
+          <View style={{flex:1}}>
+            <Buttons title="7"  color="#fff"  Width="100%" Height="100%"/>
+          </View>
+
+          <View style={{flex:1}}>
+            <Buttons title="8"  color="#fff"  Width="100%" Height="100%"/>
+          </View>
+
+          <View style={{flex:1}}>
+            <Buttons title="9"  color="#fff"  Width="100%" Height="100%"/>
+          </View>
+
+          <View style={{flex:1}}>
+            <Buttons title="-"  color="#ff9933"  Width="100%" Height="100%"/>
+          </View>
+
+        </View>
+        {/* row 3 */}
+        <View style={Styles.rows_container}>
+          <View style={{flex:1}}>
+            <Buttons title="4"  color="#fff"  Width="100%" Height="100%"/>
+          </View>
+
+          <View style={{flex:1}}>
+            <Buttons title="5"  color="#fff"  Width="100%" Height="100%"/>
+          </View>
+
+          <View style={{flex:1}}>
+            <Buttons title="6"  color="#fff"  Width="100%" Height="100%"/>
+          </View>
+
+          <View style={{flex:1}}>
+            <Buttons title="x"  color="#ff9933"  Width="100%" Height="100%"/>
+          </View>
+
+        </View>
+        {/* row 4 */}
+        <View style={Styles.rows_container}>
+          <View style={{flex:1}}>
+            <Buttons title="1"  color="#fff"  Width="100%" Height="100%"/>
+          </View>
+
+          <View style={{flex:1}}>
+            <Buttons title="2"  color="#fff"  Width="100%" Height="100%"/>
+          </View>
+
+          <View style={{flex:1}}>
+            <Buttons title="3"  color="#fff"  Width="100%" Height="100%"/>
+          </View>
+
+          <View style={{flex:1}}>
+            <Buttons title="/"  color="#ff9933"  Width="100%" Height="100%"/>
+          </View> 
+
+        </View>
+        {/* row 5 */}
+        <View style={Styles.rows_container}>
+          <View style={{flex:2}}>
+            <Buttons title="0"  color="#fff"  Width="100%" Height="100%"/>
+          </View>
+
+          <View style={{flex:1}}>
+            <Buttons title="."  color="#fff"  Width="100%" Height="100%"/>
+          </View>
+
+          <View style={{flex:1}}>
+            <Buttons title="="  color="#ff9933"  Width="100%" Height="100%"/>
+          </View>
+        </View>
+
+
+        {/* Sem usar flex */}
+        {/* <Buttons title="AC" color="#fff"  Width="75%" Height="20%" />
+
+        <Buttons title="+"  color="#ff9933" Width="25%" Height="20%" />
+
+        <Buttons title="7"  color="#fff"  Width="25%" Height="20%"/>
+
+        <Buttons title="8"  color="#fff"  Width="25%" Height="20%"/>
+
+        <Buttons title="9"  color="#fff"  Width="25%" Height="20%"/>
+
+        <Buttons title="-"  color="#ff9933" Width="25%" Height="20%"/>
+
+        <Buttons title="4"  color="#fff"  Width="25%" Height="20%"/>
+
+        <Buttons title="5"  color="#fff"  Width="25%" Height="20%"/>
+
+        <Buttons title="6"  color="#fff"  Width="25%" Height="20%"/>
+
+        <Buttons title="x"  color="#ff9933" Width="25%" Height="20%"/>
+
+        <Buttons title="1"  color="#fff"  Width="25%" Height="20%"/>
+
+        <Buttons title="2"  color="#fff"  Width="25%" Height="20%"/>
+
+        <Buttons title="3"  color="#fff"  Width="25%" Height="20%"/>
+
+        <Buttons title="/"  color="#ff9933" Width="25%" Height="20%"/>
+
+        <Buttons title="0"  color="#fff"  Width="50%" Height="20%"/>
+
+        <Buttons title='.'  color="#fff"  Width="25%" Height="20%"/>
+
+        <Buttons title="="  color="#ff9933" Width="25%" Height="20%"/> */}
+        
+      </View>
+    </>
